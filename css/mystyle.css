@@ -1,0 +1,194 @@
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    padding-top: 70px;
+    color: #333;
+    background-color: #ebf3f9;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 60px;
+}
+
+
+/* center menu button on mobile*/
+.myNavbarToggle {
+    float: none;
+    margin: 10px auto;
+}
+
+.myNavMargin {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+header, .mySmall {
+    color: #004f3a;
+}
+
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+
+h5 {
+    font-size: 15px;
+    margin-top: 7px;
+    padding-bottom: 8px;
+  
+}
+
+h3 {
+    font-size: 20px;
+    }
+
+.lake-image {
+    border: thin solid #163550;
+}
+
+.sub-head {
+    color:  #275d8b; /*10% darker than menu bar color #337ab7*/
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 10px;
+    background-image: url("../images/lake-clouds.jpg");
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-size: cover;  
+}
+
+
+.contactInfo, .approaches {
+    margin-top: 15px;
+}
+
+.myMap {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.welcome-section {
+    font-size: 17px;
+    padding: 25px 25px 0px 25px;
+    margin-bottom: 25px;
+    width: 282.5px;
+}
+
+
+.julia-image {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: thin solid #333;
+}
+
+.issuesList li {
+    padding: 0px 0 0 0;
+    margin: 5px 0;
+    line-height: 18px;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    padding: 15px;
+    background-color: #f5f5f5;
+}
+
+/*remove negative padding that is causing horizontal scroll*/
+.myRow {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.text-muted {
+  margin: 20px 0;
+}
+
+
+
+@media screen and (min-width: 499px) {
+    h1 {
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+    h5 {
+        font-size: 17px;
+        padding-bottom: 10px;  
+    }
+}
+
+
+ /* For small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 37px;
+        margin-bottom: 10px;
+    }
+    h5 {
+        font-size: 19px;
+        padding-bottom: 10px;  
+    }
+    
+    .welcome-section {
+        width: auto;
+    }
+    
+    .aboutIntro {
+            margin-top: 15px;
+    }
+    .julia-image {
+        margin-top: 20px;
+    }
+}
+   
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+     h1 {
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+    h5 {
+        font-size: 19px;
+        padding-bottom: 10px;  
+    }
+    
+    .welcome-section {
+        width: 400px;
+    }
+ 
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .approaches {
+    padding-right: 30px;
+    }
+    .issues {
+    margin-top: 15px;
+    }
+    .issuesHead {
+        text-indent:  4.5px;
+    }
+    .about {
+    padding-right: 30px;
+    }
+    .directions {
+    padding-right: 30px;
+    }
+    .myMap {
+    margin-top: 19px;
+    }
+    body {
+        margin-bottom: 75px;
+    }
+}
